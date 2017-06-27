@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="content" method="upgrade">
+	<name>Content - FLEXI URL</name>
+	<author>Lyquix</author>
+	<creationDate>2017-06-27</creationDate>
+	<copyright>Copyright (c) 2017 Lyquix. All Rights Reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>info@lyquix.com</authorEmail>
+	<authoralt>https://www.lyquix.com</authoralt>
+	<version>1.0</version>
+	<description>Detects com_content URLs and convert them to com_flexicontent equivalents.</description>
+	
+	<files>
+		<filename plugin="flexiurl">flexiurl.php</filename>
+		<filename>index.html</filename>
+	</files>	
+	
+	<languages>
+	</languages>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+			</fieldset>
+		</fields>
+	</config>
+</extension>
